@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sornamadhavan V - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Sora:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <div class="page-glow glow-one"></div>
+    <div class="page-glow glow-two"></div>
+
+    <button class="menu-btn" type="button" aria-label="Open navigation menu">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <nav class="sidebar" aria-label="Main navigation">
+        <button class="close-btn" type="button" aria-label="Close navigation menu">&times;</button>
+        <div class="sidebar-brand">
+            <span class="eyebrow">Portfolio</span>
+            <h2>Sornamadhavan</h2>
+            <p>Full-stack developer in progress, building practical web experiences.</p>
+        </div>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#internships">Internships</a></li>
+            <li><a href="#certificates">Certificates</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <header class="hero">
+            <div class="hero-copy">
+                <span class="eyebrow">Developer Portfolio</span>
+                <h1>Sornamadhavan V</h1>
+                <h2>I build <span id="typing-effect"></span></h2>
+                <p>
+                    Full-stack developer focused on clean interfaces, practical products, and steady growth through real projects,
+                    internships, and hands-on learning.
+                </p>
+                <div class="hero-actions">
+                    <a href="#projects" class="primary-btn">View Projects</a>
+                    <a href="#contact" class="secondary-btn">Let&apos;s Connect</a>
+                </div>
+            </div>
+            <div class="hero-panel">
+                <div class="hero-photo-wrap">
+                    <img src="logo/profile.jpg" alt="Sornamadhavan V" class="profile-img">
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-card">
+                        <strong>Full Stack</strong>
+                        <span>Java, Spring Boot, React, MySQL</span>
+                    </div>
+                    <div class="stat-card">
+                        <strong>Projects</strong>
+                        <span>Academic and real-world product builds</span>
+                    </div>
+                    <div class="stat-card">
+                        <strong>Growth Mindset</strong>
+                        <span>Always learning through internships and certificates</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section id="about" class="card about-section">
+            <div class="section-heading">
+                <span class="eyebrow">About</span>
+                <h2>Designing useful products while growing as a developer.</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Hello! I&apos;m <strong>Sornamadhavan V</strong>, a passionate and dedicated IT student at Mahendra Engineering College. My interest in technology comes from understanding how systems work and turning ideas into practical digital experiences.</p>
+                    <p>I specialize in <strong>full-stack web development</strong> using <strong>Java, Spring Boot, MySQL, JavaScript, and React.js</strong>. I enjoy building applications that feel easy to use, look polished, and solve real problems in a clear way.</p>
+                </div>
+                <div class="about-highlights">
+                    <div class="highlight-chip"><i class="fas fa-code"></i> Clean UI and responsive design</div>
+                    <div class="highlight-chip"><i class="fas fa-server"></i> Backend logic with Spring Boot</div>
+                    <div class="highlight-chip"><i class="fas fa-database"></i> Database-driven web apps</div>
+                    <div class="highlight-chip"><i class="fas fa-lightbulb"></i> Curious, consistent learner</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="card">
+            <div class="section-heading">
+                <span class="eyebrow">Skills</span>
+                <h2>Tools I use to build modern web applications.</h2>
+            </div>
+            <div class="skills-container">
+                <div class="skills-category">
+                    <h3>Frontend</h3>
+                    <div class="skills-row">
+                        <div class="skill-card"><i class="fab fa-html5"></i> HTML</div>
+                        <div class="skill-card"><i class="fab fa-css3-alt"></i> CSS</div>
+                        <div class="skill-card"><i class="fab fa-js"></i> JavaScript</div>
+                        <div class="skill-card"><i class="fab fa-react"></i> React.js</div>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3>Backend</h3>
+                    <div class="skills-row">
+                        <div class="skill-card"><i class="fab fa-java"></i> Java</div>
+                        <div class="skill-card"><i class="fas fa-leaf"></i> Spring Boot</div>
+                        <div class="skill-card"><i class="fas fa-database"></i> MySQL</div>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3>Tools</h3>
+                    <div class="skills-row">
+                        <div class="skill-card"><i class="fab fa-github"></i> GitHub</div>
+                        <div class="skill-card"><i class="fab fa-docker"></i> Docker</div>
+                        <div class="skill-card"><i class="fas fa-terminal"></i> Postman</div>
+                        <div class="skill-card"><i class="fab fa-visual-studio"></i> VS Code</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="internships" class="wide-section">
+            <div class="section-heading centered">
+                <span class="eyebrow">Experience</span>
+                <h2>Internships that shaped how I build and learn.</h2>
+            </div>
+
+            <div class="internship-card">
+                <img src="logo/nithra.png" alt="Nithra Apps Logo" class="internship-logo">
+                <div class="internship-info">
+                    <h3>Web Development Intern</h3>
+                    <p><strong>Company:</strong> Nithra Apps</p>
+                    <p><strong>Duration:</strong> 1 Month</p>
+                    <ul>
+                        <li>Developed and optimized web applications for smoother user experiences.</li>
+                        <li>Worked across HTML, CSS, JavaScript, React.js, Java, and Spring Boot.</li>
+                        <li>Improved UI and UX to make interfaces more usable and polished.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="internship-card">
+                <img src="logo/matt.jpeg" alt="Matt Engineering Solutions Logo" class="internship-logo">
+                <div class="internship-info">
+                    <h3>Machine Learning and AI Intern</h3>
+                    <p><strong>Company:</strong> Matt Engineering Solutions</p>
+                    <p><strong>Duration:</strong> 1 Week</p>
+                    <ul>
+                        <li>Performed data preprocessing and feature engineering using Pandas and NumPy.</li>
+                        <li>Worked with Python, TensorFlow, and Scikit-Learn for model training and evaluation.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="internship-card">
+                <img src="logo/firstmatrixlogo.png" alt="Internship placeholder logo" class="internship-logo">
+                <div class="internship-info">
+                    <h3>Web Development Interns</h3>
+                    <p><strong>Company:</strong> FirstMatrix Solutions</p>
+                    <p><strong>Duration:</strong> 1 Month</p>
+                    <ul>
+                        <li>Developed a Bike Rental System web application, implementing features like user registration, booking, and rental management.
+                        <li>Collaborated on backend integration, handling data storage, API interactions, and system functionality testing.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="wide-section">
+            <div class="section-heading centered">
+                <span class="eyebrow">Projects</span>
+                <h2>Selected work that reflects my technical direction.</h2>
+            </div>
+            <div class="projects-container">
+                <article class="project-card" data-url="https://frontend-sornamadhavans-projects.vercel.app/">
+                    <img src="logo/nod.png" alt="College No Due Form System" class="project-image">
+                    <div class="project-info">
+                        <h3>College No Due Form Management System</h3>
+                        <p>A role-based platform for students, faculty, and HODs to manage and track the no-due workflow.</p>
+                        <div class="tech-stack">
+                            <span>Java</span>
+                            <span>Spring Boot</span>
+                            <span>MySQL</span>
+                            <span>HTML/CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card" data-url="https://bike-rental-frontend-n183.vercel.app/">
+                    <img src="logo/bikelogo.jpg" alt="Internship management" class="project-image">
+                    <div class="project-info">
+                        <h3>Online Bike Rental System</h3>
+                        <p>Developed a full-stack Bike Rental System that enables vendors to list bikes and customers to browse, book, and manage rentals seamlessly.
+                        </p>
+                        <div class="tech-stack">
+                            <span>Java</span>
+                            <span>JavaScript</span>
+                            <span>CSS</span>
+                            <span>Springboot</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <img src="logo/scroll.png" alt="Eye-Wink Scrolling System">
+                    <div class="project-info">
+                        <h3>Eye-Wink Scrolling System</h3>
+                        <p>Gesture-based navigation that scrolls pages through facial cues and eye-wink detection.</p>
+                        <div class="tech-stack">
+                            <span>TensorFlow.js</span>
+                            <span>face-api.js</span>
+                            <span>HTML/CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <img src="logo/pflogo.png" alt="Portfolio Website" class="project-image">
+                    <div class="project-info">
+                        <h3>Portfolio Website</h3>
+                        <p>A refreshed personal website showcasing skills, projects, internships, and achievements.</p>
+                        <div class="tech-stack">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Responsive Design</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <img src="logo/fees.png" alt="College Fees Management System" class="project-image">
+                    <div class="project-info">
+                        <h3>College Fees Management System</h3>
+                        <p>A college fee management platform designed to help students and admins track fee payments efficiently.</p>
+                        <div class="tech-stack">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Responsive Design</span>
+                        </div>
+                    </div>
+                </article>
+
+                
+
+               
+            </div>
+        </section>
+
+        <section id="certificates" class="wide-section">
+            <div class="section-heading centered">
+                <span class="eyebrow">Certificates</span>
+                <h2>Learning milestones across development, databases, AI, and aptitude.</h2>
+            </div>
+            <div class="certificates-container">
+                <div class="certificate-card">
+                    <img src="logo/javac.jpg" alt="Java Programming Language">
+                    <div class="certificate-info">
+                        <h3>Java Programming Language</h3>
+                        <p>Issued by: L&amp;T EduTech</p>
+                        <p>Date: 10 Apr 2024 to 10 May 2024</p>
+                    </div>
+                </div>
+
+                <div class="certificate-card">
+                    <img src="logo/sqlc.jpg" alt="Introduction to SQL">
+                    <div class="certificate-info">
+                        <h3>Introduction to SQL</h3>
+                        <p>Issued by: Simple Learn SkillUp</p>
+                        <p>Date: 22 Sep 2024</p>
+                    </div>
+                </div>
+
+                <div class="certificate-card">
+                    <img src="logo/coderana.jpg" alt="Coding competition">
+                    <div class="certificate-info">
+                        <h3>Coding Competition</h3>
+                        <p>Issued by: Coder Arena</p>
+                        <p>Date: 16 Feb 2025</p>
+                    </div>
+                </div>
+
+                <div class="certificate-card">
+                    <img src="logo/python.jpg" alt="Python foundation certificate">
+                    <div class="certificate-info">
+                        <h3>Python Foundation Certificate</h3>
+                        <p>Issued by: Infosys Springboard</p>
+                        <p>Date: 12 Mar 2025</p>
+                    </div>
+                </div>
+
+                <div class="certificate-card">
+                    <img src="logo/mongo.jpg" alt="Mongo DB certificate">
+                    <div class="certificate-info">
+                        <h3>Introduction to Mongo DB</h3>
+                        <p>Issued by: Mongo DB</p>
+                        <p>Date: 14 Jun 2024</p>
+                    </div>
+                </div>
+
+                <div class="certificate-card">
+                    <img src="logo/uipath.jpg" alt="UiPath certificate">
+                    <div class="certificate-info">
+                        <h3>UiPath Automation Explorer for Students</h3>
+                        <p>Issued by: UiPath</p>
+                        <p>Date: 30 Apr 2024</p>
+                    </div>
+                </div>
+
+                <div class="certificate-card">
+                    <img src="logo/apti.jpg" alt="Aptitude training certificate">
+                    <div class="certificate-info">
+                        <h3>Recruitment ACE</h3>
+                        <p>Issued by: L&amp;T EduTech</p>
+                        <p>Date: 6 Dec 2023 to 15 Dec 2023</p>
+                    </div>
+                </div>
+
+                <div class="certificate-card">
+                    <img src="logo/sona.jpg" alt="Sona College workshop">
+                    <div class="certificate-info">
+                        <h3>Workshop: Unlocking AI Potential</h3>
+                        <p>Issued by: Sona College of Technology</p>
+                        <p>Date: 23 Feb 2024</p>
+                    </div>
+                </div>
+
+                <div class="certificate-card">
+                    <img src="logo/matt.jpg" alt="Machine learning and AI certificate">
+                    <div class="certificate-info">
+                        <h3>Machine Learning and AI Potential</h3>
+                        <p>Issued by: MATT Engineering Solutions</p>
+                        <p>Date: 30 Jun 2023 to 5 Jul 2023</p>
+                    </div>
+                </div>
+
+                <div class="certificate-card">
+                    <img src="logo/node js_page-0001.jpg" alt="Node JS certificate">
+                    <div class="certificate-info">
+                        <h3>Basics of Node JS</h3>
+                        <p>Issued by: MEC-IT</p>
+                        <p>Date: 12 Sep 2024 to 13 Sep 2024</p>
+                    </div>
+                </div>
+
+                <div class="certificate-card">
+                    <img src="logo/Salem clg_page-0001.jpg" alt="Salem Engineering College certificate">
+                    <div class="certificate-info">
+                        <h3>Paper Presentation</h3>
+                        <p>Issued by: Salem Engineering College</p>
+                        <p>Date: 4 Nov 2024</p>
+                    </div>
+                </div>
+
+                <div class="certificate-card">
+                    <img src="logo/idayaclg_page-0001.jpg" alt="Idhaya Engineering College certificate">
+                    <div class="certificate-info">
+                        <h3>Paper Presentation</h3>
+                        <p>Issued by: Idhaya Engineering College</p>
+                        <p>Date: 4 Nov 2023</p>
+                    </div>
+                </div>
+
+                <div class="certificate-card">
+                    <img src="logo/kiotclg_page-0001.jpg" alt="KIOT college certificate">
+                    <div class="certificate-info">
+                        <h3>Workshop: AWS Cloud</h3>
+                        <p>Issued by: KIOT College</p>
+                        <p>Date: 1 Mar 2024</p>
+                    </div>
+                </div>
+
+                <div class="certificate-card">
+                    <img src="logo/nithra_page-0001.jpg" alt="Nithra internship certificate">
+                    <div class="certificate-info">
+                        <h3>Web Development Intern</h3>
+                        <p>Issued by: Nithra Apps</p>
+                        <p>Date: 18 Feb 2025 to 28 Mar 2025</p>
+                    </div>
+                </div>
+
+                <div class="certificate-card">
+                    <img src="logo/cyber_page-0001.jpg" alt="Cyber security workshop certificate">
+                    <div class="certificate-info">
+                        <h3>Cyber Security Workshop</h3>
+                        <p>Issued by: Technical Training Program</p>
+                        <p>Date: 2024</p>
+                    </div>
+                </div>
+
+                <div class="certificate-card">
+                    <img src="logo/firstmatrix.jpg" alt="Certificate placeholder">
+                    <div class="certificate-info">
+                        <h3>Web Development Intern</h3>
+                        <p>Issued by: FirstMatrix Solutions,Salem</p>
+                        <p>Date: 17/10/2025</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="section-heading centered">
+                <span class="eyebrow">Contact</span>
+                <h2>Let&apos;s build something meaningful together.</h2>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:Sornamadhavanv@gmail.com">Sornamadhavanv@gmail.com</a></p>
+                    <p><i class="fas fa-phone"></i> <a href="tel:6384060990">6384060990</a></p>
+                    <p><i class="fas fa-map-marker-alt"></i> Tamil Nadu, India</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/yourgithub" target="_blank" rel="noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/sornamadhavan-v-baa624224/" target="_blank" rel="noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <form action="https://formspree.io/f/xdkelnrn" method="POST">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
